@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(rgb(148, 199, 233),rgb(206, 104, 206) ,rgb(214, 210, 155));
+    height: 100vh;
+    /*vh - sempre tera a altura completa do navegador */
+    display: flex;
+    justify-content: center;  /*horizontal */
+    align-items: center; /*vertical*/
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    margin-bottom: 40px;
+    
+}
+
+.central{
+    background: linear-gradient(rgba(255, 255, 255, 0.445));
+    width: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+
+.central div button{
+    width: 100px;
+    background-color: rgb(218, 156, 218);
+    color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: rgb(119, 64, 119);
+
+}
+
+/* psiceldo class */
+.central div button:hover{
+    background-color: rgb(119, 64, 119);
+    color: white;
+    border-color: rgb(218, 156, 218);
+}
