@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.central button{
+    width: 100px;
+    background-color: yellow;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+#btligar:hover {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+#btdesligar:hover {
+    background-color: #c74821; 
+    color: white; 
+}
