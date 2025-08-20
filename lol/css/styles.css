@@ -1,0 +1,19 @@
+@font-face { /*Virtualizar fonte*/
+    font-family: evil;
+    src: url('/images/EvilEmpire.otf');
+}
+
+body{
+    background: url(/images/team_graves_8.jpg); /*coloca imagem de fundo*/
+    background-size: cover; /*imagem sempre aparece toda, independente do dispositivo*/
+    background-repeat: no-repeat;  /*não irá se repetir*/
+    height: 100vh; /*exite na altura do navegador*/
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: evil;
+    font-weight: none;
+}
